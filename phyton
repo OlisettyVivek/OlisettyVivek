@@ -1,0 +1,141 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# #average of 3 numbers
+
+# In[7]:
+
+
+a=20
+b=20
+c=20
+d=(a+b+c)/3
+print(d)
+print(type(d))
+
+
+# #multipication of 3 numbers
+
+# In[9]:
+
+
+a=2
+b=3
+c=1
+d=a*b*c
+print(d)
+print(type(d))
+
+
+# #dynamic addition
+
+# In[17]:
+
+
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=(a+b)
+print(c)
+print(type(c))
+
+
+# #dynamic multiplication
+
+# In[18]:
+
+
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=(a*b)
+print(c)
+print(type(c))
+
+
+# #dynamic averege of 3 numbers
+
+# In[22]:
+
+
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+d=a+b+c/3
+print(d)
+print(type(d))
+
+
+# # type conversions
+# #convert int to float
+
+# In[23]:
+
+
+a=10
+print(type(a))
+b=float(a)
+print(type(b))
+
+
+# #convert float to int
+
+# In[25]:
+
+
+a=0.55
+print(type(a))
+b=int(a)
+print(type(b))
+
+
+# #int to string
+
+# In[35]:
+
+
+a=10 
+print(type(a))
+b=str(a)
+print(type(b))
+print(b)
+
+
+# #string to int
+
+# In[37]:
+
+
+a="10"
+print(type(a))
+b=int(a)
+print(type(b))
+print(b)
+
+
+# #boolean
+
+# In[38]:
+
+
+a=20
+b=10
+c=a>b
+print(bool(c))
+
+
+# #boolean to int
+
+# In[39]:
+
+
+a=3
+print(type(a))
+b=bool(a)
+print(b)
+print(type(b))
+
+
+# In[ ]:
+
+
+
+
