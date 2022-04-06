@@ -1,0 +1,244 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyM127CfJxA+i09NHw9J/aPS",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/OlisettyVivek/OlisettyVivek/blob/main/mod%201%20pyt\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "_9gdl0babNjQ"
+      },
+      "outputs": [],
+      "source": [
+        "#Develop a calculator to convert time, distance, area, volume and temperature from one unit to another"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"enter the min\"))\n",
+        "time=(a*60)\n",
+        "print(time)\n",
+        "b=float(input(\"enter the distance\"))\n",
+        "dist=(b*1000)\n",
+        "print(dist)\n",
+        "l=float(input(\"enter the lenght\"))\n",
+        "b=float(input(\"enter the bredth\"))\n",
+        "area=(l*b)\n",
+        "print(area)\n",
+        "c=float(input(\"enter the side of cube\"))\n",
+        "vol=(a*a*a)\n",
+        "print(vol)\n",
+        "celsius=float(input(\"enter the temp in celcius\")) \n",
+        "fahrenheit = (celsius * 1.8) + 32\n",
+        "print(fahrenheit)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ns5NoGufeOBx",
+        "outputId": "452e757d-3ff9-4349-f079-96ea03361079"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the min1\n",
+            "60.0\n",
+            "enter the distance20\n",
+            "20000.0\n",
+            "enter the lenght10\n",
+            "enter the bredth20\n",
+            "200.0\n",
+            "enter the side of cube10\n",
+            "1.0\n",
+            "enter the temp in celcius20\n",
+            "68.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Calculate simple and compound interest for various parameters specified by the user"
+      ],
+      "metadata": {
+        "id": "J8QDVUMAllzq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "P = float(input(\"Enter the principal\"))\n",
+        "N = float(input(\"Enter the time\"))\n",
+        "R = float(input(\"Enter the rate\"))\n",
+        "SI= (P*N*R)/100\n",
+        "ci=P*(pow((1+R/100),N))\n",
+        "print(\"simple intrest :\",SI)\n",
+        "print(\"compound intrest:\",ci)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tHeR_YWMlw7S",
+        "outputId": "2a55e952-87d8-4391-b4f5-a418b920fcf0"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the principal10\n",
+            "Enter the time10\n",
+            "Enter the rate12\n",
+            "simple intrest : 12.0\n",
+            "compound intrest: 31.058482083442122\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#To enter marks of five subjects and calculate total, average and percentage."
+      ],
+      "metadata": {
+        "id": "ITl5RjI-n-Qg"
+      },
+      "execution_count": 35,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=int(input(\"enter the marks of subject a\"))\n",
+        "b=int(input(\"enter the marks of subject b\"))\n",
+        "c=int(input(\"enter the marks of subject c\"))\n",
+        "d=int(input(\"enter the marks of subject d\"))\n",
+        "e=int(input(\"enter the marks of subject e\"))\n",
+        "total=a+b+c+d+e\n",
+        "print(total)\n",
+        "average=(a+b+c+d+e)/5\n",
+        "print(average)\n",
+        "percentage=(total*100)/5\n",
+        "print(percentage)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qA713o7EoRMK",
+        "outputId": "a697e338-4c48-4f7c-b4c3-9942f338ec54"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the marks of subject a10\n",
+            "enter the marks of subject b20\n",
+            "enter the marks of subject c30\n",
+            "enter the marks of subject d41\n",
+            "enter the marks of subject e50\n",
+            "151\n",
+            "30.2\n",
+            "3020.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Calculate net salary of employee given basic,da,hra,pf and lic"
+      ],
+      "metadata": {
+        "id": "tMqDH_6Op8M5"
+      },
+      "execution_count": 37,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 269
+        },
+        "id": "EkUK451UqAPJ",
+        "outputId": "851d4e8e-74e5-456c-d7fe-e007d7b4d0d8"
+      },
+      "execution_count": 51,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter name of employee:10\n",
+            "Enter Basic Salary :10\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-51-4f1d61e71697>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mhra\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mbasic\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0;36m0.15\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mpf\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mbasic\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0mda\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0;36m0.12\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 6\u001b[0;31m \u001b[0mnetpay\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mbasic\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0mda\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0mhra\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0mta\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      7\u001b[0m \u001b[0mgrosspay\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mnetpay\u001b[0m\u001b[0;34m-\u001b[0m\u001b[0mpf\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      8\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"\\n\\n\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'ta' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "GCCuyLtrtTmT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
